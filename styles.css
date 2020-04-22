@@ -8,7 +8,7 @@ body {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	padding: 35px 160px 35px 175px;
+	padding: 25px 160px 25px 175px;
 }
 .menu {
 	padding-top: 18px;
