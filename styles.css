@@ -19,3 +19,42 @@ body {
 	font-size: 18px;
 	padding-right: 25px;
 }
+.banner {
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+}
+.banner__heading {
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 100;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	letter-spacing: 2px;
+}
+.banner__text {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+	padding-bottom: 50px;
+}
+.bunner__button {
+	background-color: #256F51;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	border: 1px solid #256F51;
+	letter-spacing: 2px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.banner__image {
+	text-align: center;
+	padding-top: 50px;
+}
