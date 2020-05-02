@@ -79,22 +79,24 @@ body {
 	text-align: center;
 	font-size: 18px;
 }
-.portfolio__button__container {
+.portfolio__button-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: center;
 }
 .portfolio__button {
 	margin-left: 20px;
 }
-.portfolio__image__container {
-	width: 100%; 
-    max-width: 960px; 
-    margin: 0 auto; 
+.portfolio__image-container {
+    justify-content: center;
     padding-top: 50px;
+	display: grid;
+	grid-template-columns: 201px 201px 201px 201px;
 }
 .portfolio__image {
-	float: left; 
-    width: 25%; 
-    padding: 15px; 
-    box-sizing: border-box; 
+	padding-left: 12px;
+	padding-top: 12px;
 }
