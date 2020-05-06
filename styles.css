@@ -97,7 +97,7 @@ body {
 	display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;  
@@ -108,6 +108,8 @@ body {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .portfolio__image {
 	padding: 10px;
