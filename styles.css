@@ -97,12 +97,12 @@ body {
 	display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;  
 }
-.portfolio__image-wrap {
+.portfolio__image-container-wrap {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
