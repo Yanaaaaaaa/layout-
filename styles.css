@@ -26,6 +26,7 @@ body {
 	width: 100%;
 	height: 610px;
 }
+
 .banner__heading {
 	color: #fff;
 	font-size: 60px;
@@ -67,16 +68,22 @@ body {
 	margin: 50px auto 0;
 }
 
-.portfolio__heading {
+.heading {
 	padding: 30px;
 	text-align: center;
 	font-weight: normal;
 	font-size: 30px;
 }
-.portfolio__text {
+.portfolio__heading {
+	color: #000;
+}
+.text {
 	padding-bottom: 50px;
 	text-align: center;
 	font-size: 18px;
+}
+.portfolio__text {
+	color: #000;
 }
 .portfolio__button-container {
 	display: -webkit-flex;
@@ -114,3 +121,50 @@ body {
 .portfolio__image {
 	padding: 10px;
 }
+.about {
+	background-color: #256F51;
+}
+.card {
+	width: 220px;
+	height: auto;
+}
+.about__image {
+	width: 220px;
+}
+.about__card-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.about__image-container {
+	background-color: #fff;
+	margin: 0 50px 60px 50px
+}
+.about__signature-name {
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	padding: 10px;
+}
+.about__signature-position {
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+.about__signature {
+	padding: 10px;
+	font-size: 16px;
+}
+.heading_white {
+	color: #fff;
+}
+.text_white {
+	color: #fff;
+}
+
