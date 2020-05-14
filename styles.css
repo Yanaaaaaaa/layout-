@@ -174,3 +174,32 @@ body {
 	color: #fff;
 }
 
+.contact__form-msg {
+	display: block;
+}
+.contact__container {
+	display: flex;
+	justify-content: center;
+}
+.form {
+	width: 190px;
+	height: 25px;
+	margin: 10px 10px 30px 10px;
+	padding: 10px;
+	font-style: italic;
+	border: 2px solid #ccc;
+}
+.contact__form-msg {
+	width: 430px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	border: 2px solid #ccc;
+}
+.contact__button {
+	height: 35px;
+	width: 100px;
+	margin: 20px 10px 20px 364px;
+	font-size: 16px;
+}
