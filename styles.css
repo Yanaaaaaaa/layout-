@@ -210,12 +210,12 @@ body {
 .contact__list {
 	list-style: none;
 }
-.contact__list-item {
+.contact-list__item {
 	text-align: left;
 	font-size: 16px;
 	padding-bottom: 30px;
 }
-.contact__list-heading {
+.contact-list__heading {
 	margin-top: 10px;
 	text-align: left;
 	padding-bottom: 25px;
