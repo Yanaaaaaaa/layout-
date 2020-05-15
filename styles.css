@@ -207,3 +207,24 @@ body {
 	margin: 20px 10px 20px 364px;
 	font-size: 16px;
 }
+.contact__list {
+	list-style: none;
+}
+.contact__list-item {
+	text-align: left;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+.contact__list-heading {
+	margin-top: 10px;
+	text-align: left;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+.contact__container-list {
+	width: 250px;
+}
+.contact__container {
+	flex-wrap: wrap;
+	width: 85%;
+}
