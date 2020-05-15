@@ -228,3 +228,13 @@ body {
 	flex-wrap: wrap;
 	width: 85%;
 }
+
+.footer {
+	background-color: #256F51;
+}
+.footer__text {
+	color: #fff;
+	text-align: left;
+	padding: 40px 0 40px 200px;
+	font-size: 16px;
+}
