@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Project</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="reset.css">
 </head>
@@ -15,6 +17,7 @@
 			<a class="menu__item" href="">ABOUT</a>
 			<a class="menu__item" href="">CONTACT</a>
 		</nav>
+		<img class="menu_mobile" src="images/nav-icon.png">
 	</header>
 
 	<section class="banner">
@@ -87,8 +90,10 @@
 		<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 		<div class="contact__container">
 			<form class="contact__form" action="" method="post">
-				<input class="form" type="text" name="user_name" placeholder="Your name" required="">
-				<input class="form" type="text" name="user_email" placeholder="Your email" required="">
+				<div class="container-form">
+					<input class="form" type="text" name="user_name" placeholder="Your name" required="">
+					<input class="form" type="text" name="user_email" placeholder="Your email" required="">
+				</div>
 				<textarea class="contact__form-msg" name="user_message" placeholder="Your message"></textarea>
 				<input class="button contact__button" type="submit" value="SUBMIT">
 			</form>

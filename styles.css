@@ -1,6 +1,8 @@
 body {
 	font-family: sans-serif;
+	width: 100%;
 }
+
 .header {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -8,10 +10,13 @@ body {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	padding: 25px 160px 25px 175px;
+	width: 100%;
+	padding: 25px 0;
 }
 .menu {
-	padding-top: 18px;
+	padding-top: 22px;
+	padding-right: 150px;
+	padding-bottom: 22px;
 }
 .menu__item {
 	text-decoration: none;
@@ -25,6 +30,13 @@ body {
 .menu__item:active {
 	color: #256F51;
 }
+.logo {
+	width: 222px;
+	padding-left: 150px;
+}
+.menu_mobile {
+	display: none;
+}
 
 .banner {
 	background-image: url(images/banner.jpg);
@@ -32,7 +44,6 @@ body {
 	width: 100%;
 	height: 610px;
 }
-
 .banner__heading {
 	color: #fff;
 	font-size: 60px;
@@ -53,6 +64,7 @@ body {
 	text-align: center;
 	font-weight: 100;
 	padding-bottom: 50px;
+	width: 80%;
 }
 .button {
 	background-color: #256F51;
@@ -73,7 +85,9 @@ body {
 	display: block;
 	margin: 50px auto 0;
 }
-
+.portfolio {
+	width: 100%;
+}
 .heading {
 	padding: 30px;
 	text-align: center;
@@ -127,8 +141,10 @@ body {
 .portfolio__image {
 	padding: 10px;
 }
+
 .about {
 	background-color: #256F51;
+	width: 100%;
 }
 .card {
 	width: 220px;
@@ -226,15 +242,44 @@ body {
 }
 .contact__container {
 	flex-wrap: wrap;
-	width: 85%;
+	width: 100%;
 }
 
 .footer {
 	background-color: #256F51;
+	width: 100%;
 }
 .footer__text {
 	color: #fff;
 	text-align: left;
 	padding: 40px 0 40px 200px;
 	font-size: 16px;
+}
+
+/* Планшет */
+
+@media (max-width: 1024px) {
+
+	.logo {
+		width: 190px;
+		height: 55px;
+		padding-left: 45px;
+	}
+	.menu {
+		padding-right: 20px;
+		padding-left: 90px;
+	}
+	.footer__text {
+		padding-left: 100px;
+	}
+	
+
+}
+
+/* Телефон */
+
+@media (max-width: 768px) {
+
+
+
 }
