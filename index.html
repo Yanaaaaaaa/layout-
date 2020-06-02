@@ -31,10 +31,14 @@
 		<h2 class="heading portfolio__heading">Portfolio</h2>
 		<p class="text portfolio__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 		<div class="portfolio__button-container">
-			<button class="button portfolio__button">ALL</button>
-			<button class="button portfolio__button">WEB DESIGN</button>
-			<button class="button portfolio__button">GRAPHIC DESIGN</button>
-			<button class="button portfolio__button">FLAT DESIGN</button>
+			<div class="button-container">
+				<button class="portfolio__button">ALL</button>
+				<button class="portfolio__button">WEB DESIGN</button>
+			</div>
+			<div class="button-container">
+				<button class="portfolio__button">GRAPHIC DESIGN</button>
+				<button class="portfolio__button">FLAT DESIGN</button>
+			</div>
 		</div>
 		<div class="portfolio__image-container">
 		<div class="portfolio__image-container-wrap">
@@ -84,27 +88,29 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="contact">
-		<h4 class="heading">Contact Us</h4>	
+		<h4 class="heading">Contact Us</h4>
 		<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 		<div class="contact__container">
-			<form class="contact__form" action="" method="post">
-				<div class="container-form">
-					<input class="form" type="text" name="user_name" placeholder="Your name" required="">
-					<input class="form" type="text" name="user_email" placeholder="Your email" required="">
-				</div>
-				<textarea class="contact__form-msg" name="user_message" placeholder="Your message"></textarea>
-				<input class="button contact__button" type="submit" value="SUBMIT">
-			</form>
-			<div class="contact__container-list">
-			<ul class="text contact__list">
-				<li class="text contact-list__heading">INFORMATION</li>
-				<li class="text contact-list__item"><img src="images/location.png"> Bak-One Company 12345 Hollywood Bvld Street Los Angeles, California</li>
-				<li class="text contact-list__item"><img src="images/phone.png"> +444(Phone)123456</li>
-				<li class="text contact-list__item"><img src="images/fax.png"> +123(FAX)0011223</li>
-				<li class="text contact-list__item"><img src="images/mail.png"> info@bak-onecompany.com</li>
-			</ul>
+			<div class="contact__container-form">
+				<form class="contact__form" action="" method="POST">
+					<div class="container-form">
+						<input class="form" type="text" name="user_name" placeholder="Your name" required="">
+						<input class="form" type="text" name="user_email" placeholder="Your email" required="">
+					</div>
+					<textarea class="form-msg" name="user_message" placeholder="Your message"></textarea>
+					<input class="button contact__button" type="submit" value="SUBMIT">
+				</form>
+			</div>
+			<div class="contact__container-inf">
+				<ul class="text contact__inf">
+					<li class="text contact__inf-item">INFORMATION</li>
+					<li class="text contact__inf-item_width"><img src="images/location.png"> Bak-One Company 12345 Hollywood Bvld Street Los Angeles, California</li>
+					<li class="text contact__inf-item"><img src="images/phone.png"> +444(Phone)123456</li>
+					<li class="text contact__inf-item"><img src="images/fax.png"> +123(FAX)0011223</li>
+					<li class="text contact__inf-item"><img src="images/mail.png"> info@bak-onecompany.com</li>
+				</ul>
 			</div>
 		</div>
 	</section>
